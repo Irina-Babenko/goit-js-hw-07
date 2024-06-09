@@ -1,0 +1,199 @@
+/* task-1 */
+ul {
+  font-family: 'Montserrat', sans-serif;
+  list-style: none;
+}
+
+.item h2 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  margin-bottom: 10px;
+}
+
+.item ul {
+  padding: 10px;
+  margin-top: 0;
+}
+
+.item li {
+  border: 1px solid #ccc;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  width: 360px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+/* task-2 */
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  list-style: none;
+  padding: 0;
+}
+.gallery-item {
+  flex: 1 1 calc(33.333% - 24px);
+  box-sizing: border-box;
+}
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* task-3 */
+
+#name-input {
+  width: 360px;
+  height: 40px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+/* task-4 */
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 360px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+input[type='email'],
+input[type='password'] {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  width: 360px;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button[type='submit'] {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background-color: #4e75ff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button[type='submit']:hover {
+  background-color: #6c8cff;
+}
+
+/* task-5 */
+
+.widget {
+  text-align: center;
+}
+
+.change-color {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding: 8px 16px;
+  background-color: #4e75ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.color {
+  font-weight: bold;
+}
+
+/* task-6 */
+
+#controls {
+  margin-bottom: 10px;
+}
+
+input[type='number'] {
+  border: 1px solid #808080;
+  border-radius: 8px;
+  text-align: center;
+  width: 150px;
+  height: 40px;
+  margin-left: 16px;
+}
+button[data-create] {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 120px;
+  height: 40px;
+  color: #fff;
+  background: #4e75ff;
+  border: none;
+  cursor: pointer;
+  margin-left: 16px;
+}
+
+button[data-destroy] {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 120px;
+  height: 40px;
+  color: #fff;
+  background-color: #ff4e4e;
+  border: none;
+  cursor: pointer;
+  margin-left: 16px;
+}
+button[data-destroy]:hover {
+  background: #ff7070;
+}
+
+#boxes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 30px;
+  height: 30px;
+  margin-top: 32px;
+  margin-right: 44px;
+  margin-bottom: 44px;
+}
